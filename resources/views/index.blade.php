@@ -10,8 +10,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="{{asset('assets/img/logo.png')}}" rel="icon">
-    <link href="{{asset('assets/img/logo.png')}}" rel="apple-touch-icon">
+    <link href="{{URL::asset('assets/img/logo.png')}}" rel="icon">
+    <link href="{{URL::asset('assets/img/logo.png')}}" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link
@@ -19,16 +19,16 @@
         rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="{{asset('assets/vendor/aos/aos.css')}}" rel="stylesheet">
-    <link href="{{asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{asset('assets/vendor/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet">
-    <link href="{{asset('assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
-    <link href="{{asset('assets/vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
-    <link href="{{asset('assets/vendor/remixicon/remixicon.css')}}" rel="stylesheet">
-    <link href="{{asset('assets/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
+    <link href="{{URL::asset('assets/vendor/aos/aos.css')}}" rel="stylesheet">
+    <link href="{{URL::asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{URL::asset('assets/vendor/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet">
+    <link href="{{URL::asset('assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
+    <link href="{{URL::asset('assets/vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
+    <link href="{{URL::asset('assets/vendor/remixicon/remixicon.css')}}" rel="stylesheet">
+    <link href="{{URL::asset('assets/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
+    <link href="{{URL::asset('assets/css/style.css')}}" rel="stylesheet">
 </head>
 
 <body>
@@ -39,7 +39,7 @@
 
         <h1 class="logo">
             <a href="{{ url('/') }}" class="logo">
-                <img src="{{asset('assets/img/logo.png')}}" alt="" class="img-fluid">
+                <img src="{{URL::asset('assets/img/logo.png')}}" alt="" class="img-fluid">
             </a>
             <a href="{{ url('/') }}">GSSE</a>
         </h1>
@@ -218,17 +218,18 @@
             <div class="row align-items-center">
 
                 <div class="col-lg-6 video-box align-self-baseline" data-aos="fade-right" data-aos-delay="100">
-                    <img src="{{ asset('assets/img/cars.jpg') }}" class="img-fluid" alt="">
+                    <img src="{{ URL::asset('assets/img/cars.jpg') }}" class="img-fluid" alt="">
                     <a href="#" class="glightbox play-btn mb-4"
                        data-vbtype="video" data-autoplay="true"></a>
                 </div>
 
                 <div class="col-lg-6 pt-3 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
                     <h3>We offer our customers our professionalism, we commit to: </h3>
-                   <p> We provide you with vehicles for your trip to Nouakchott or within the country, with or without a
-                    driver.<br>
-                    We have a wide range of safe and available vehicles, from which you can choose
-                   </p>
+                    <p> We provide you with vehicles for your trip to Nouakchott or within the country, with or without
+                        a
+                        driver.<br>
+                        We have a wide range of safe and available vehicles, from which you can choose
+                    </p>
                     <ul>
                         <li><i class="bx bx-check-double"></i> Adherence to costs and schedules</li>
                         <li><i class="bx bx-check-double"></i> Powerful tools</li>
@@ -263,32 +264,32 @@
 
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
                      data-aos="zoom-in">
-                    <img src="{{ asset('assets/img/logos/azalai.png') }}" class="img-fluid" alt="">
+                    <img src="{{ URL::asset('assets/img/logos/azalai.png') }}" class="img-fluid" alt="">
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
                      data-aos="zoom-in">
-                    <img src="{{asset('assets/img/logos/sea-engineering.png') }}" class="img-fluid" alt="">
+                    <img src="{{URL::asset('assets/img/logos/sea-engineering.png') }}" class="img-fluid" alt="">
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
                      data-aos="zoom-in">
-                    <img src="{{ asset('assets/img/logos/voltalia.png') }}" class="img-fluid" alt="">
+                    <img src="{{ URL::asset('assets/img/logos/voltalia.png') }}" class="img-fluid" alt="">
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
                      data-aos="zoom-in">
-                    <img src="{{ asset('assets/img/logos/alfa-services.jpg') }}" class="img-fluid" alt="">
+                    <img src="{{ URL::asset('assets/img/logos/alfa-services.jpg') }}" class="img-fluid" alt="">
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
                      data-aos="zoom-in">
-                    <img src="{{asset('assets/img/logos/halima.jpg')}}" class="img-fluid" alt="">
+                    <img src="{{URL::asset('assets/img/logos/halima.jpg')}}" class="img-fluid" alt="">
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
                      data-aos="zoom-in">
-                    <img src="{{ asset('assets/img/logos/azalai.png') }}" class="img-fluid" alt="">
+                    <img src="{{ URL::asset('assets/img/logos/azalai.png') }}" class="img-fluid" alt="">
                 </div>
 
             </div>
@@ -318,7 +319,7 @@
                             <i class="bx bxl-dribbble"></i>
                         </div>
                         <h4><a href="">Meet and Greet and Close Quarters </a></h4>
-{{--                        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>--}}
+                        {{--                        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>--}}
                     </div>
                 </div>
 
@@ -347,7 +348,7 @@
                             <i class="bx bx-tachometer"></i>
                         </div>
                         <h4><a href="">Logistics and fleet management </a></h4>
-{{--                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>--}}
+                        {{--                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>--}}
                     </div>
                 </div>
 
@@ -361,7 +362,7 @@
                             <i class="bx bx-layer"></i>
                         </div>
                         <h4><a href="">Travel agency (booking hotels and airline tickets)</a></h4>
-{{--                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>--}}
+                        {{--                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>--}}
                     </div>
                 </div>
 
@@ -375,7 +376,7 @@
                             <i class="bx bx-slideshow"></i>
                         </div>
                         <h4><a href="">Remote monitoring and electronic security</a></h4>
-{{--                        <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>--}}
+                        {{--                        <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>--}}
                     </div>
                 </div>
 
@@ -501,16 +502,16 @@
         class="bi bi-arrow-up-short"></i></a>
 
 <!-- Vendor JS Files -->
-<script src="{{asset('assets/vendor/purecounter/purecounter_vanilla.js')}}"></script>
-<script src="{{asset('assets/vendor/aos/aos.js')}}"></script>
-<script src="{{asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-<script src="{{asset('assets/vendor/glightbox/js/glightbox.min.js')}}"></script>
-<script src="{{asset('assets/vendor/isotope-layout/isotope.pkgd.min.j')}}s"></script>
-<script src="{{asset('assets/vendor/swiper/swiper-bundle.min.js')}}"></script>
-<script src="{{asset('assets/vendor/php-email-form/validate.js')}}"></script>
+<script src="{{URL::asset('assets/vendor/purecounter/purecounter_vanilla.js')}}"></script>
+<script src="{{URL::asset('assets/vendor/aos/aos.js')}}"></script>
+<script src="{{URL::asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+<script src="{{URL::asset('assets/vendor/glightbox/js/glightbox.min.js')}}"></script>
+<script src="{{URL::asset('assets/vendor/isotope-layout/isotope.pkgd.min.j')}}s"></script>
+<script src="{{URL::asset('assets/vendor/swiper/swiper-bundle.min.js')}}"></script>
+<script src="{{URL::asset('assets/vendor/php-email-form/validate.js')}}"></script>
 
 <!-- Template Main JS File -->
-<script src="{{asset('assets/js/main.js')}}"></script>
+<script src="{{URL::asset('assets/js/main.js')}}"></script>
 
 </body>
 
