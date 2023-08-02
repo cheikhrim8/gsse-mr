@@ -1,6 +1,7 @@
 /**
-* Template Name: Tempo - v4.7.0
-* Template URL: https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/
+* Template Name: OnePage
+* Updated: Jul 27 2023 with Bootstrap v5.3.1
+* Template URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
@@ -66,10 +67,6 @@
   const scrollto = (el) => {
     let header = select('#header')
     let offset = header.offsetHeight
-
-    if (!header.classList.contains('header-scrolled')) {
-      offset -= 16
-    }
 
     let elementPos = select(el).offsetTop
     window.scrollTo({
@@ -148,14 +145,70 @@
   }, true)
 
   /**
+   * Scroll with ofset on page load with hash links in the url
+   */
+  window.addEventListener('load', () => {
+    if (window.location.hash) {
+      if (select(window.location.hash)) {
+        scrollto(window.location.hash)
+      }
+    }
+  });
+
+  /**
+   * Preloader
+   */
+  let preloader = select('#preloader');
+  if (preloader) {
+    window.addEventListener('load', () => {
+      preloader.remove()
+    });
+  }
+
+  /**
+   * Initiate glightbox 
+   */
+  const glightbox = GLightbox({
+    selector: '.glightbox'
+  });
+
+  /**
+   * Testimonials slider
+   */
+  new Swiper('.testimonials-slider', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 20
+      },
+
+      1200: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      }
+    }
+  });
+
+  /**
    * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {
     let portfolioContainer = select('.portfolio-container');
     if (portfolioContainer) {
       let portfolioIsotope = new Isotope(portfolioContainer, {
-        itemSelector: '.portfolio-item',
-        layoutMode: 'fitRows'
+        itemSelector: '.portfolio-item'
       });
 
       let portfolioFilters = select('#portfolio-flters li', true);
@@ -170,7 +223,9 @@
         portfolioIsotope.arrange({
           filter: this.getAttribute('data-filter')
         });
-
+        portfolioIsotope.on('arrangeComplete', function() {
+          AOS.refresh()
+        });
       }, true);
     }
 
@@ -201,14 +256,20 @@
   });
 
   /**
-   * Scroll with ofset on page load with hash links in the url
+   * Animation on scroll
    */
   window.addEventListener('load', () => {
-    if (window.location.hash) {
-      if (select(window.location.hash)) {
-        scrollto(window.location.hash)
-      }
-    }
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true,
+      mirror: false
+    })
   });
+
+  /**
+   * Initiate Pure Counter 
+   */
+  new PureCounter();
 
 })()
