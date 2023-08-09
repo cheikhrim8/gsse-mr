@@ -264,32 +264,36 @@
 
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
                      data-aos="zoom-in">
-                    <img src="{{ URL::asset('assets/img/logos/azalai.png') }}" class="img-fluid" alt="">
+                    <img src="{{ asset('assets/img/logos/azalai.png') }}" class="img-fluid" alt="">
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
                      data-aos="zoom-in">
-                    <img src="{{URL::asset('assets/img/logos/sea-engineering.png') }}" class="img-fluid" alt="">
+                    <img src="{{asset('assets/img/logos/sea-engineering.png') }}" class="img-fluid" alt="">
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
                      data-aos="zoom-in">
-                    <img src="{{ URL::asset('assets/img/logos/voltalia.png') }}" class="img-fluid" alt="">
+                    <img src="{{ asset('assets/img/logos/voltalia.png') }}" class="img-fluid" alt="">
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
                      data-aos="zoom-in">
-                    <img src="{{ URL::asset('assets/img/logos/alfa-services.jpg') }}" class="img-fluid" alt="">
+                    <img src="{{ asset('assets/img/logos/alfa-services.jpg') }}" class="img-fluid" alt="">
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
                      data-aos="zoom-in">
-                    <img src="{{URL::asset('assets/img/logos/halima.jpg')}}" class="img-fluid" alt="">
+                    <img src="{{asset('assets/img/logos/halima.jpg')}}" class="img-fluid" alt="">
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
                      data-aos="zoom-in">
-                    <img src="{{ URL::asset('assets/img/logos/azalai.png') }}" class="img-fluid" alt="">
+                    <img src="{{ asset('assets/img/logos/maurilog.jpg') }}" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
+                     data-aos="zoom-in">
+                    <img src="{{ asset('assets/img/logos/bp.jpg') }}" class="img-fluid" alt="">
                 </div>
 
             </div>
@@ -319,7 +323,6 @@
                             <i class="bx bxl-dribbble"></i>
                         </div>
                         <h4><a href="">Meet and Greet and Close Quarters </a></h4>
-                        {{--                        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>--}}
                     </div>
                 </div>
 
@@ -348,7 +351,6 @@
                             <i class="bx bx-tachometer"></i>
                         </div>
                         <h4><a href="">Logistics and fleet management </a></h4>
-                        {{--                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>--}}
                     </div>
                 </div>
 
@@ -362,7 +364,6 @@
                             <i class="bx bx-layer"></i>
                         </div>
                         <h4><a href="">Travel agency (booking hotels and airline tickets)</a></h4>
-                        {{--                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>--}}
                     </div>
                 </div>
 
@@ -376,24 +377,8 @@
                             <i class="bx bx-slideshow"></i>
                         </div>
                         <h4><a href="">Remote monitoring and electronic security</a></h4>
-                        {{--                        <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>--}}
                     </div>
                 </div>
-
-                {{--<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-                    <div class="icon-box iconbox-teal">
-                        <div class="icon">
-                            <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke="none" stroke-width="0" fill="#f5f5f5"
-                                      d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762"></path>
-                            </svg>
-                            <i class="bx bx-arch"></i>
-                        </div>
-                        <h4><a href="">Divera Don</a></h4>
-                        <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
-                    </div>
-                </div>
---}}
             </div>
 
         </div>
