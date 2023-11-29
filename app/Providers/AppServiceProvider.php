@@ -26,8 +26,8 @@ class AppServiceProvider extends ServiceProvider
         $dater = Carbon::parse($date)->locale('fr_FR')->isoFormat('LL');
 
         dd($dater);*/
-        if ($this->app->environment('production')) {
+       /* if ($this->app->environment('production')) {
             URL::forceScheme('https');
-        }
+        }*/
     }
 }

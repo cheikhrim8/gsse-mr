@@ -264,36 +264,36 @@
 
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
                      data-aos="zoom-in">
-                    <img src="{{ asset('assets/img/logos/azalai.png') }}" class="img-fluid" alt="">
+                    <img src="{{ URL::asset('assets/img/logos/azalai.png') }}" class="img-fluid" alt="">
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
                      data-aos="zoom-in">
-                    <img src="{{asset('assets/img/logos/sea-engineering.png') }}" class="img-fluid" alt="">
+                    <img src="{{ URL::asset('assets/img/logos/sea-engineering.png') }}" class="img-fluid" alt="">
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
                      data-aos="zoom-in">
-                    <img src="{{ asset('assets/img/logos/voltalia.png') }}" class="img-fluid" alt="">
+                    <img src="{{ URL::asset('assets/img/logos/voltalia.png') }}" class="img-fluid" alt="">
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
                      data-aos="zoom-in">
-                    <img src="{{ asset('assets/img/logos/alfa-services.jpg') }}" class="img-fluid" alt="">
+                    <img src="{{ URL::asset('assets/img/logos/alfa-services.jpg') }}" class="img-fluid" alt="">
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
                      data-aos="zoom-in">
-                    <img src="{{asset('assets/img/logos/halima.jpg')}}" class="img-fluid" alt="">
+                    <img src="{{ URL::asset('assets/img/logos/halima.jpg')}}" class="img-fluid" alt="">
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
                      data-aos="zoom-in">
-                    <img src="{{ asset('assets/img/logos/maurilog.jpg') }}" class="img-fluid" alt="">
+                    <img src="{{ URL::asset('assets/img/logos/maurilog.jpg') }}" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
                      data-aos="zoom-in">
-                    <img src="{{ asset('assets/img/logos/bp.jpg') }}" class="img-fluid" alt="">
+                    <img src="{{ URL::asset('assets/img/logos/bp.jpg') }}" class="img-fluid" alt="">
                 </div>
 
             </div>
